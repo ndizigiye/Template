@@ -10,7 +10,7 @@ Version    : 1.0
 Released   : 20130505
 
 -->
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>PPministries</title>
@@ -33,6 +33,18 @@ Released   : 20130505
 <![endif]-->
 </head>
 <body>
+<div id="fb-root"></div>
+<!-- FACEBOOK COMMENT BOX -->
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script>
+<!-- FACEBOOK COMMENT BOX -->
+
 	<div id="wrapper">
 		<div id="header">
 			<div id="logo">
@@ -48,20 +60,37 @@ Released   : 20130505
 				<li class="current_page_item"><a
 					href="http://ppministries/design/">Home</a></li>
 				<li><a href="#">About us</a></li>
-				<li><a href="#">News</a></li>
+				<li><a href="#">Media</a></li>
 				<li><a href="#">Events</a></li>
 				<li><a href="#">Contact</a></li>
 				<li class="last"><a href="#">Donate</a></li>
 			</ul>
 		</div>
-
+<div id="two-column">
 		<div id="search-box">
 			<input type="text" class="search"/>
 			<a href="http://ppministries/design/watch.html" class="link-style">Search</a>
+			<a href="http://ppministries/design/browse-video.html" id="browse-button" class="link-style">Browse</a>
 		</div>
-		<div id="video-screen">
-		<h2>I Smile by Kirk Franklin</h2>
-		<iframe src="http://player.vimeo.com/video/23871499?title=0&amp;byline=0&amp;portrait=0&amp;autoplay=0" width="700" height="400" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+	   <div id="video-main">
+			<h2>I Smile by Kirk Franklin</h2>
+			<iframe src="http://player.vimeo.com/video/23871499?title=0&amp;byline=0&amp;portrait=0&amp;autoplay=0" width="700" height="400" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+				<div id="video-description">
+					<p id="video-date">Sunday, July 07, 2013</p>
+					<p id="video-summary">
+					Is God first in your life, or is He an afterthought? 
+					Are there others who have greater influence over your conduct and conversation than He does? 
+					In this important message, Seeking the Lord, Dr. Stanley explains 
+					how the Father pursues us and how we can embrace an intimate 
+					relationship with Him.
+					</p>
+					<p id="tags">
+					<img src="images/tag.png" width="14px" height="14px"/> <b>Tags</b>: kirk franklin,worship
+					</p>
+				</div>
+		</div>
+		<div id="comments">
+		<fb:comments href="http://niarmand.com" width="700" num_posts="10"></fb:comments>
 		</div>
 		<div id="related-videos">
 			<h2>related videos</h2>
@@ -114,6 +143,7 @@ Released   : 20130505
 			</div>
 		</div>
 	</div>
+</div>
 	<div id="footer">
 		<p>
 			Copyright (c) 2013 ppministries.nl All rights reserved. Design by <a
