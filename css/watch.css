@@ -40,7 +40,7 @@
 #related-videos{
 	position:relative;
 	top:-470px;
-	left:712px;
+	left:740px;
 	width: 240px;
 	/*border:1px solid;*/
 }
@@ -48,9 +48,15 @@
 #related-videos #thumbnails{
 		margin-top:5px;
 		background-color: #053536;
-		padding: 3px 3px 0px 3px;
 		width: 166px;
 	}
-#related-videos #thumbnails #thumbnail p{
+#related-videos #thumbnails #thumbnail{
+background-color:#000000;
+border-bottom:10px solid #C1E5E6;
+padding: 3px 3px 2px 3px;
+}
 
-	}
+#related-videos #thumbnails #thumbnail a{
+color: #ffffff;
+font-weight: 700;
+}
