@@ -137,7 +137,7 @@ hr {
 	overflow: hidden;
 	width: 960px;
 	height: 70px;
-	background: #055657 url(images/bg01.png) repeat;
+	background: #055657 url(/design/images/bg01.png) repeat;
 	font-size: 20px;
 	color: #000000;
 }
@@ -282,7 +282,7 @@ hr {
 	overflow: hidden;
 	width: 960px;
 	margin: 0px auto;
-	padding: 50px 50px 30px 50px;
+	padding: 40px 0px 10px 10px;
 }
 
 #three-columns .content {
@@ -295,23 +295,6 @@ hr {
 	color: #000000;
 }
 
-#three-columns #column1 {
-	float: left;
-	width: 250px;
-	margin-right: 50px;
-}
-
-#three-columns #column2,#three-columns #column3 {
-	float: left;
-	width: 250px;
-	margin-right: 50px;
-}
-
-#three-columns #events{
-	float: left;
-	width: 280px;
-	margin-top: 50px;
-}
 /* Two Columns */
 
 #two-columns {
